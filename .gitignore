@@ -1,0 +1,48 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+.pgpass
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Future frontend
+node_modules/
+dist/
+build/
+coverage/
